@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pojo</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="dial_number">dialnumber</string>
+    <string name="move_with_result">movewithresult</string>
+    <string name="result_from_activity">resultfromactivity</string>
+    <string name="choose_number">choosenumber</string>
+</resources>

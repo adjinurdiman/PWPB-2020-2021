@@ -1,0 +1,95 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    tools:context=".GridLayoutActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_gravity="left|top"
+        android:text="A"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_gravity="left|top"
+        android:text="B"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_gravity="left|top"
+        android:text="C"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_gravity="left|top"
+        android:text="D"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_gravity="left|top"
+        android:text="E"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_gravity="left|top"
+        android:text="F"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_gravity="left|top"
+        android:text="G"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_gravity="left|top"
+        android:text="H"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_gravity="left|top"
+        android:text="I"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_gravity="left|top"
+        android:text="J"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_gravity="left|top"
+        android:text="K"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_gravity="left|top"
+        android:text="L"
+        android:padding="20dp"
+        android:textSize="20dp"/>
+
+</GridLayout>
