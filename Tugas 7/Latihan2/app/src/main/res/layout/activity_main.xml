@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"
+        android:text="Story Of My Life"/>
+
+    <Button
+        android:id="@+id/AboutMe"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="About Me"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:background="@android:color/holo_purple"/>
+
+    <Button
+        android:id="@+id/Gallery"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Gallery Of My Life"
+        android:layout_marginLeft="80dp"
+        android:background="@android:color/holo_purple"/>
+
+</RelativeLayout>
