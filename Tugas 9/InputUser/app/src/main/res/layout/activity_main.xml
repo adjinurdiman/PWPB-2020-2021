@@ -1,0 +1,73 @@
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menjumlahkan 2 Buah Bilangan"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:id="@+id/text2"
+        android:layout_marginTop="40dp"
+        android:text="Masukkan Bilangan Pertama"/>
+
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_below="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bil1"
+        android:id="@+id/text3"
+        android:text="Masukkan Bilangan Kedua"/>
+
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_below="@id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnhasil"
+        android:text="Hitung Bilangan"
+        android:layout_below="@id/bil2"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnhasil"
+        android:id="@+id/text4"
+        android:text="Hasil Penjumlahan"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_below="@id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
